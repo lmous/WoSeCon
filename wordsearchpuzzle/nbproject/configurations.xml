@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Board.h</itemPath>
+      <itemPath>DirectedLocation.h</itemPath>
+      <itemPath>ListOfWords.h</itemPath>
+      <itemPath>RandomLocator.h</itemPath>
+      <itemPath>Settings.h</itemPath>
+      <itemPath>Statistics.h</itemPath>
+      <itemPath>WoSeCon.h</itemPath>
+      <itemPath>WordInfo.h</itemPath>
+      <itemPath>Words.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Board.cpp</itemPath>
+      <itemPath>DirectedLocation.cpp</itemPath>
+      <itemPath>ListOfWords.cpp</itemPath>
+      <itemPath>RandomLocator.cpp</itemPath>
+      <itemPath>Statistics.cpp</itemPath>
+      <itemPath>WoSeCon.cpp</itemPath>
+      <itemPath>WordInfo.cpp</itemPath>
+      <itemPath>Words.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>test1.txt</itemPath>
+    <itemPath>test2.txt</itemPath>
+    <itemPath>test3.txt</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="Board.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Board.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DirectedLocation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DirectedLocation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListOfWords.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListOfWords.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomLocator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomLocator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Statistics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Statistics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WoSeCon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WoSeCon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WordInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WordInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Words.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Words.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test3.txt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Board.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Board.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DirectedLocation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DirectedLocation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListOfWords.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListOfWords.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomLocator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomLocator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Statistics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Statistics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WoSeCon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WoSeCon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WordInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WordInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Words.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Words.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test3.txt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
